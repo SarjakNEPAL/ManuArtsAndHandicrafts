@@ -135,6 +135,25 @@ header{
     border:0.1rem solid black;
 }
 
+
+/* WELCOME DESIGN*/
+
+.welcome{
+    display: block;
+}
+.welcome .pic{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.welcome .pic img{
+    height: 25%;
+    width: 25%;
+    border: 0.1rem solid rgb(51, 51, 14);
+    border-radius:360px;    
+}
+
 /* 
 responsive design */
 
@@ -166,6 +185,16 @@ responsive design */
     header{
         height: 5.5rem;
     }
+
+    .welcome .pic{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .welcome .pic img{
+    
+    }
 }
 
 @media(max-width:510px){
@@ -183,3 +212,6 @@ responsive design */
         width:unset;
     }
 }
+
+
+
